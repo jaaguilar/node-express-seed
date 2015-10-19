@@ -4,7 +4,7 @@ module.exports = function (app) {
 		res.status(404);
 
 		if (req.accepts('html')){
-			return res.send('<h2>404 Page not found. I\'m so sorry but an error has ocurred...</br> try again or please, contact with an administrator.</h2>');
+			return res.send('<h2>404 Page not found. We\'re so sorry but an error has ocurred...</br> try again or please, contact with an administrator.</h2>');
 		}
 
 		if (req.accepts('json')){

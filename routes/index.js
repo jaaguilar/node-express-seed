@@ -1,4 +1,5 @@
 var config = require('../config');
+var errors = require('./errors')
 
 module.exports = function(app){
   //home page
