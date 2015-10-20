@@ -1,5 +1,6 @@
 var config = require('../config');
-var errors = require('./errors')
+var errors = require('./errors');
+var session = require('../lib/session');
 
 module.exports = function(app){
   //home page
